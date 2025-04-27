@@ -237,27 +237,33 @@ body {
 
     .card {
         margin: 1rem auto 1rem;
-        width: 84%;
+        width: 90%;
         height: 725px;
         perspective: 1000px;
     }
 
     .gif {
-        width: 87%;
-        height: 263px;
+        width: 86%;
+        height: 230px;
     }
 
     .card__header {
-        position: relative;
-        height: 200px;
-        padding: 30px 30px 40px;
-    }    
-
-    /* .card__header h2 {
-        font-size: 20px;
+        height: 170px;
+    }
+    
+    .happy_birthday_title {
+        font-size: 1.28rem;
     }
 
-    .card__body h3 {
+    .card__body .wrap_typing .typing {
+        font-size: 0.75rem;
+    }    
+
+    .card__face h2 {
+        font-size: 1.7rem;
+    }
+
+    /* .card__body h3 {
         font-size: 18px;
     }
 
