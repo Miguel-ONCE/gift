@@ -185,7 +185,7 @@ $(document).ready(function () {
     });
 
     const fechaActual = new Date();
-    const fechaLimite = new Date("2025-04-22");
+    const fechaLimite = new Date("2025-04-28");
     if (fechaActual >= fechaLimite) {
         $("#skip-typing").show();
     }
