@@ -171,18 +171,18 @@ $(document).ready(function () {
         frame();
     }
 
-    $("#toggle-audio").on("click", function () {
-        const musica = document.getElementById("musica");
-        if (musica) {
-            if (musica.paused) {
-                musica.play();
-                $(this).text("🔈 Silenciar");
-            } else {
-                musica.pause();
-                $(this).text("🔊 Reanudar");
-            }
-        }
-    });
+    // $("#toggle-audio").on("click", function () {
+    //     const musica = document.getElementById("musica");
+    //     if (musica) {
+    //         if (musica.paused) {
+    //             musica.play();
+    //             $(this).text("🔈 Silenciar");
+    //         } else {
+    //             musica.pause();
+    //             $(this).text("🔊 Reanudar");
+    //         }
+    //     }
+    // });
 
     const fechaActual = new Date();
     const fechaLimite = new Date("2025-04-28");
