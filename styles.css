@@ -256,7 +256,7 @@ body {
     }
 
     .card__body .wrap_typing .typing {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }    
 
     .card__face h2 {
