@@ -236,7 +236,7 @@ body {
 @media (max-width: 480px) {
 
     .card {
-        margin: -0.8rem auto 1rem;
+        margin: -0.7rem auto 1rem;
         width: 90%;
         height: 760px;
         perspective: 1000px;
@@ -256,7 +256,7 @@ body {
     }
 
     .card__body .wrap_typing .typing {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }    
 
     .card__face h2 {
