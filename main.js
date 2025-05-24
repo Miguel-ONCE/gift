@@ -26,7 +26,7 @@ $(document).ready(function () {
     }
 
     const textos = [
-        'Yaniiii, hoy es tu cumpleaños y sabes que significa eso? 🤔. Que me debes una rebanada de pastel 🍰 y que ya estás viejita jaja. De seguro ya te seden el asiento en el metro jaja (es bromi anciana). Paso rápido a felicitarte, a decirte que disfrutes este dia con tu familia y principalmente con tus amigos porque sí o sí tienes que celebrarlo con ellos, nada es especial si tus amigos no están ahí para verlo. Por cierto recuerdas que hace un año te felicité y te dijé que cumplias 30 años jaja, y volteaste a ver a Karen con cara "Y este wey quien se cree 😠" no sé como no me golpeaste 🤕 jaja. También me invitaste a tu comida de cumple y yo en mi mente de "No te conozco y tú no me conoces, sería incomodo" jaja. Pero bueno, pasatela super, te quiero un chingo y recibe un gran abrazo de mi parte 🤗 en este día que nos hace sentir especiales.',
+        'Yaniiiii, hoy es tu cumpleaños y sabes que significa eso? 🤔. Que me debes una rebanada de pastel 🍰 y que ya estás viejita jaja. De seguro ya te seden el asiento en el metro jaja (es bromi anciana). Paso rápido a felicitarte, a decirte que disfrutes este dia con tu familia y principalmente con tus amigos porque sí o sí tienes que celebrarlo con ellos. Nada es especial si tus amigos no están ahí para verlo. Por cierto recuerdas que hace un año te felicité y te dijé que cumplias 30 años jaja, y volteaste a ver a Karen con cara de "Y este wey quien se cree 😠" no sé como no me golpeaste 🤕 jaja. También me invitaste a tu comida de cumple y yo en mi mente de "No te conozco y tú no me conoces, sería incomodo" jaja. Pero bueno, pasatela super, te quiero un chingo y recibe un gran abrazo de mi parte 🤗 en este día que nos hace sentir especiales.',
         'Con cariño <strong style="color: #fac73c;">Mike</strong>.'
     ];
     
@@ -185,10 +185,14 @@ $(document).ready(function () {
     // });
 
     const fechaActual = new Date();
-    const fechaLimite = new Date("2025-04-28");
+    const fechaLimite = new Date("2025-05-25T00:00:00");
+
     if (fechaActual >= fechaLimite) {
         $("#skip-typing").show();
+    } else {
+        $("#skip-typing").hide();
     }
+
 
     $("#skip-typing").on("click", function () {
         timeouts.forEach(clearTimeout);
